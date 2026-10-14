@@ -120,6 +120,7 @@
 //     Console.WriteLine("Не найдено");
 // }
 // Итоговая задача. Журнал оценок
+Console.WriteLine("======= Итоговая задача ======== ");
 int[] grades = new int[8];
 
 for (int i = 0; i < grades.Length; i++)
@@ -158,16 +159,17 @@ Console.WriteLine($"Двоек: {twos}, пятёрок: {fives}");
 
 if (avg >= 4.5)
 {
-    Console.WriteLine("Отличник");
+    Console.WriteLine("Отличник(красавчик)");
 }
 else if (avg >= 3.5)
 {
-    Console.WriteLine("Хорошист");
+    Console.WriteLine("Хорошист(почти крутой)");
 }
 else
 {
     Console.WriteLine("Есть над чем поработать");
 }
+Console.WriteLine("======= Дополнительное задание ★★★ ======== ");
 int[] arr = { 1, 2, 3, 4, 5, 6 };
 for (int i = 0; i < arr.Length / 2; i++)
 {
